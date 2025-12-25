@@ -6,10 +6,4 @@ export default defineConfig({
 		"!*.ts",
 		"!*.js",
 	],
-	pluginOpts: {
-		typesPlugin: {
-			dtsGenerator: "tsc",
-			project: "tsconfig.types.json",
-		}
-	}
-}, {},)
+})
