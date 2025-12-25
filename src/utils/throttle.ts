@@ -21,7 +21,9 @@ export function throttle<
 		boolean | ThrottleQueue =
 		boolean | ThrottleQueue,
 	TPromisify extends boolean = false,
->(callback: T, wait: number = 0,
+>(
+	callback: T,
+	wait: number = 50,
 	{
 		queue = false as TQueued,
 		index = (queue ? 0 : undefined) as any,
