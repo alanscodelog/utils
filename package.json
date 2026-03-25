@@ -56,7 +56,7 @@
 		"@alanscodelog/commitlint-config": "^3.1.2",
 		"@alanscodelog/eslint-config": "^6.3.1",
 		"@alanscodelog/semantic-release-config": "^6.0.0",
-		"@alanscodelog/tsconfigs": "^6.2.0",
+		"@alanscodelog/tsconfigs": "^6.3.0",
 		"@alanscodelog/vite-config": "^0.0.6",
 		"@commitlint/cli": "^19.8.1",
 		"@types/node": "^24.3.0",
