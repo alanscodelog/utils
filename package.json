@@ -1,7 +1,7 @@
 {
 	"name": "@alanscodelog/utils",
 	"description": "My utility functions and typescript types.",
-	"version": "6.1.0",
+	"version": "6.2.0",
 	"type": "module",
 	"sideEffects": false,
 	"exports": {
