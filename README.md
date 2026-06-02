@@ -1,7 +1,8 @@
-[![Docs](https://github.com/alanscodelog/utils/workflows/Docs/badge.svg)](https://github.com/alanscodelog/utils/actions/workflows/docs.yml)
-[![Release](https://github.com/alanscodelog/utils/actions/workflows/release.yml/badge.svg)](https://www.npmjs.com/package/@alanscodelog/utils)
-[![NPM Version (with latest tag)](https://img.shields.io/npm/v/%40alanscodelog%2Futils/latest)](https://www.npmjs.com/package/@alanscodelog/utils/v/latest)
-[![NPM Version (with beta tag)](https://img.shields.io/npm/v/%40alanscodelog%2Futils/beta)](https://www.npmjs.com/package/@alanscodelog/utils/v/beta)
+[![Docs][docs-src]][docs-href]
+[![Release][release-src]][release-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm version (beta)][npm-version-beta-src]][npm-version-beta-href]
+[![License][license-src]][license-href]
 
 A collection of my utility functions and types. Mostly intended for use within my own projects to avoid having to depend on third party libraries.
 
@@ -55,4 +56,14 @@ The following subpath exports are available for convenience:
 
 Some utility functions are browser only, but they are included with the regular functions since they'll just throw when you try to use them (they should not cause errors when just getting imported).
 
-
+<!-- Badges -->
+[docs-src]: https://github.com/alanscodelog/utils/actions/workflows/docs.yml/badge.svg
+[docs-href]: https://github.com/alanscodelog/utils/actions/workflows/docs.yml
+[release-src]: https://github.com/alanscodelog/utils/actions/workflows/release.yml/badge.svg
+[release-href]: https://github.com/alanscodelog/utils/actions/workflows/release.yml
+[npm-version-src]: https://img.shields.io/npm/v/@alanscodelog/utils/latest
+[npm-version-href]: https://www.npmjs.com/package/@alanscodelog/utils/v/latest
+[npm-version-beta-src]: https://img.shields.io/npm/v/@alanscodelog/utils/beta
+[npm-version-beta-href]: https://www.npmjs.com/package/@alanscodelog/utils/v/beta
+[license-src]: https://img.shields.io/npm/l/@alanscodelog/utils.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@alanscodelog/utils
