@@ -14,7 +14,7 @@ export default {
 		"src/utils/index.ts",
 		"src/types/index.ts"
 	],
-	out: "docs",
+	out: "docs-types",
 	excludePrivate: true,
 	excludeExternals: true,
 	validation: {
