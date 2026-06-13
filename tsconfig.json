@@ -5,21 +5,10 @@
 	"extends": "@alanscodelog/tsconfigs",
 	"compilerOptions": {
 		"outDir": "dist",
-		"types": [
-			"node"
-		],
-		"lib": [
-			"dom",
-			"esnext"
-		], // dom needed for browser utils
-		"allowJs": true, // for eslint to be able to typecheck js files
+		"types": ["node", "@types/wicg-file-system-access"],
+		"lib": ["dom", "esnext"], // dom needed for browser utils
+		"allowJs": true // for eslint to be able to typecheck js files
 	},
-	"include": [
-		"src/**/*.ts",
-		"tests/**/*.ts",
-		"tests/**/*.js",
-		"*.ts",
-		"*.js"
-	],
+	"include": ["src/**/*.ts", "tests/**/*.ts", "tests/**/*.js", "*.ts", "*.js"],
 	"exclude": []
 }

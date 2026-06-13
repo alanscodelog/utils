@@ -61,6 +61,7 @@
 		"@alanscodelog/vite-config": "^0.0.6",
 		"@commitlint/cli": "^19.8.1",
 		"@types/node": "^24.3.0",
+		"@types/wicg-file-system-access": "catalog:",
 		"@vitest/coverage-v8": "^3.2.4",
 		"concurrently": "^9.2.1",
 		"cross-env": "^10.0.0",
