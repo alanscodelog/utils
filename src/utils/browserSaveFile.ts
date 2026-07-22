@@ -13,7 +13,10 @@
 export async function browserSaveFile(
 	name: string,
 	contents: string | Blob | Record<string, unknown> | unknown[],
-	options: Pick<FilePropertyBag,"type"> & { useFileSystemApi?: boolean } = {}
+	options: Pick<FilePropertyBag,"type"> & {
+		/** Whether to attempt using the File System Access API, true by default. */
+		useFileSystemApi?: boolean
+	} = {}
 ): Promise<void> {
 	if (typeof window === "undefined" || typeof document === "undefined") {
 		throw new Error("browserSaveFile can only be used in a browser environment.")
