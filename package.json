@@ -59,6 +59,7 @@
 		"@alanscodelog/semantic-release-config": "^6.0.0",
 		"@alanscodelog/tsconfigs": "^6.3.0",
 		"@alanscodelog/vite-config": "^0.0.6",
+		"@babel/runtime": "^7.29.7",
 		"@commitlint/cli": "^19.8.1",
 		"@types/node": "^24.3.0",
 		"@types/wicg-file-system-access": "catalog:",
